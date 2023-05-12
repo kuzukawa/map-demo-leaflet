@@ -3,7 +3,11 @@ import "./App.css";
 
 function App() {
   return (
-    <Map />
+    <>
+      <div className="header-title">テスト</div>
+      <div className="header-description">この地図はLeaflet + 地理院地図を利用して表現しています。</div>
+      <Map />
+    </>
   );
 }
 
